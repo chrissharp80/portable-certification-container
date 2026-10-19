@@ -4,8 +4,8 @@
 
 PCC defines a complete, deterministic pipeline from raw input bytes to a byte-identical certification report — so that *any* conforming implementation, on any platform, produces the same result down to the byte.
 
-> **Status:** Version 4.0 · Commercially licensable
-> This repository is a public **overview**. The full normative specification and whitepaper are available under commercial license — see [Licensing](#licensing).
+> **Status:** Version 4.0 · Open specification ([CC BY 4.0](LICENSE))
+> Read the full normative specification: **[SPEC.md](SPEC.md)**
 
 ---
 
@@ -41,12 +41,18 @@ Given identical inputs and identical normative artifacts, any conforming impleme
 
 PCC was produced through an automated iterative audit process: designs submitted to independent AI auditors in blind sessions, findings resolved without feature creep, repeated until convergence. The same methodology has since been applied across 10+ system designs.
 
-## Licensing
+## Specification
 
-The full specification, JSON Schema artifacts, test-vector suite, and whitepaper are available under commercial license.
+The full normative specification is in **[SPEC.md](SPEC.md)**.
+
+The specification references a set of machine-readable normative artifacts (manifest, parse profile, schemas, error registry, conformance vectors). These are not yet published in this repository.
+
+## License
+
+The specification is licensed under the [Creative Commons Attribution 4.0 International License](LICENSE). You may share, adapt, and implement it — including commercially — with attribution.
 
 **Contact:** chris@chrissharp.dev · [chrissharp.dev](https://chrissharp.dev)
 
 ---
 
-© 2026 Chris Sharp. This overview may be read and shared freely. The normative specification and its artifacts are licensed separately and are not included in this repository.
+© 2026 Chris Sharp.
